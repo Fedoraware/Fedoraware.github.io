@@ -1,34 +1,29 @@
-* {
-    color: #fff !important;
-    font-family: 'Verdana';
-}
-
 body {
-    margin:0;
+    margin: 0;
     background-color: #1F1F1F;
+    text-align: center;
+    color: #fff;
+    font-family: 'Verdana';
 }
 
 .header {
     border-top: 3px solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(to left, #171818, rgb(255, 101, 101), #171818);
-    padding:0;
-    margin:0;
     background-color: #171818;
     padding-bottom: 10px;
 }
 
 h1 {
     font-weight: 800;
-    color: rgb(255, 101, 101) !important;
+    color: rgb(255, 101, 101)
 }
 
 h2 {
-    font-weight: 0 !important;
+    font-weight: 0;
 }
 
 .main-bit {
-    background-color: #1F1F1F;
     margin: 50px;
 }
 
@@ -39,6 +34,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-.link-button a{
+.link-button a {
     text-decoration: none;
+    color: #fff;
 }
